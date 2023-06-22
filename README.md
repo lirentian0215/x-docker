@@ -48,7 +48,11 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
 
    [点击查看](https://github.com/dsadsadsss/render.git)
 
-**3、huggingface部署，其他可以参考 ：**
+**3、codesandbox部署，其他可以参考 ：**
+
+ [点击查看](https://github.com/dsadsadsss/codesandbox.git)
+
+**4、huggingface部署，其他可以参考 ：**
 
    只需2步操作
    
@@ -57,10 +61,6 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
    ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/fuzhi.PNG)
    
 **第2步：设置UUID、VMPATH,VLPATH,PW、TOK、URL变量，最好不要哪吒，其他变量默认即可**
-
-**4、codesandbox部署，其他可以参考 ：**
-
- [点击查看](https://github.com/dsadsadsss/codesandbox.git)
 
 **四、节点查看： 直接到日志里面复制粘贴到软件，修改host,优选IP等即可，节点已经通过v2rayN软件测试，其他软件需要自己修改**
 
