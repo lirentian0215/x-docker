@@ -58,9 +58,9 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
    
 **第2步：设置UUID、VMPATH,VLPATH,PW、TOK、URL变量，最好不要哪吒，其他变量默认即可**
 
-说明：1、设置里设置public才能在外网访问
+**4、codesandbox部署，其他可以参考 ：**
 
-说明：2、其他docker容器理论上通用，只要设置端口为7860即可，也可以改成其他容器指定的，然后设置PORT变量即可
+ [点击查看](https://github.com/dsadsadsss/codesandbox.git)
 
 **四、节点查看： 直接到日志里面复制粘贴到软件，修改host,优选IP等即可，节点已经通过v2rayN软件测试，其他软件需要自己修改**
 
