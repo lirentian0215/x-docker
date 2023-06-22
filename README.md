@@ -46,7 +46,7 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
 
 **2、render部署，其他可以参考：**
 
-   [直接部署web，选择本仓库即可](https://github.com/dsadsadsss/render.git)
+   [点击查看](https://github.com/dsadsadsss/render.git)
 
 **3、huggingface部署，其他可以参考 ：**
 
