@@ -1,4 +1,4 @@
-一、主要特点：
+**一、主要特点：**
 
 1、节点在日志可看，粘贴到软件即可食用，高手可以随意更改
 
@@ -8,7 +8,7 @@
 
 4、采用Apline最小化
 
-二、变量建议设置：
+**二、变量建议设置：**
 
 PW  :启动密码，必须，否则无法启动。防扩散密码，固定值，不可更改，群里获取
 
@@ -36,19 +36,19 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
 
 说明：这里面的所有变量都可以不改，也都可以改，只是为了小白提供了设置建议，高手随意改
 
-三、常见容器平台部署方法：
+**三、常见容器平台部署方法：**
 
-    1、PATR部署，其他可以参考：
+   ** 1、PATR部署，其他可以参考：**
 
     ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/patr1.PNG)
 
     ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/patr2.PNG)
 
-   2、render部署，其他可以参考：
+   **2、render部署，其他可以参考：**
 
    直接部署web，选择本仓库即可
 
-3、huggingface部署，其他可以参考 ：
+   **3、huggingface部署，其他可以参考 ：**
 
    只需2步操作
 
@@ -62,15 +62,15 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
 
     说明：2、其他docker容器理论上通用，只要设置端口为7860即可，也可以改成其他容器指定的，然后设置PORT变量即可
 
-四、节点查看： 直接到日志里面复制粘贴到软件，修改host,优选IP等即可，节点已经通过v2rayN软件测试，其他软件需要自己修改
+**四、节点查看： 直接到日志里面复制粘贴到软件，修改host,优选IP等即可，节点已经通过v2rayN软件测试，其他软件需要自己修改**
 
-五、手动设置参考
+**五、手动设置参考**
 
-    1、ARGO设置：
+   ** 1、ARGO设置：**
 
     ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/argo1.PNG)
 
-    2、V2rayN设置：
+   ** 2、V2rayN设置：**
 
     ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/vless.PNG)
 
