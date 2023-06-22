@@ -38,17 +38,17 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
 
 **三、常见容器平台部署方法：**
 
-   ** 1、PATR部署，其他可以参考：**
+ **1、PATR部署，其他可以参考：**
 
     ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/patr1.PNG)
 
     ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/patr2.PNG)
 
-   **2、render部署，其他可以参考：**
+ **2、render部署，其他可以参考：**
 
    直接部署web，选择本仓库即可
 
-   **3、huggingface部署，其他可以参考 ：**
+  **3、huggingface部署，其他可以参考 ：**
 
    只需2步操作
 
