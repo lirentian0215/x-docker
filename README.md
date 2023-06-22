@@ -38,39 +38,39 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
 
 三、常见容器平台部署方法：
 
-1、PATR部署，其他可以参考：
+    1、PATR部署，其他可以参考：
 
-![image](https://github.com/dsadsadsss/x-docker/blob/main/png/patr1.PNG)
+    ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/patr1.PNG)
 
-![image](https://github.com/dsadsadsss/x-docker/blob/main/png/patr2.PNG)
+    ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/patr2.PNG)
 
-2、render部署，其他可以参考：
+   2、render部署，其他可以参考：
 
-直接部署web，选择本仓库即可
+   直接部署web，选择本仓库即可
 
 3、huggingface部署，其他可以参考 ：
 
-只需2步操作
+   只需2步操作
 
-第一步：进入https://huggingface.co/spaces/Donna11/tews ，点击右上角Settings右边的三点选最后一项复制空间
+   第1步：进入https://huggingface.co/spaces/Donna11/tews ，点击右上角Settings右边的三点选最后一项复制空间
 
-![image](https://github.com/dsadsadsss/x-docker/blob/main/png/fuzhi.PNG)
+   ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/fuzhi.PNG)
 
-第二步：设置UUID、VMPATH,VLPATH,PW、TOK、URL变量，最好不要哪吒，其他变量默认即可
+    第2步：设置UUID、VMPATH,VLPATH,PW、TOK、URL变量，最好不要哪吒，其他变量默认即可
 
-说明：1、设置里设置public才能在外网访问
+    说明：1、设置里设置public才能在外网访问
 
-说明：2、其他docker容器理论上通用，只要设置端口为7860即可，也可以改成其他容器指定的，然后设置PORT变量即可
+    说明：2、其他docker容器理论上通用，只要设置端口为7860即可，也可以改成其他容器指定的，然后设置PORT变量即可
 
 四、节点查看： 直接到日志里面复制粘贴到软件，修改host,优选IP等即可，节点已经通过v2rayN软件测试，其他软件需要自己修改
 
 五、手动设置参考
 
-1、ARGO设置：
+    1、ARGO设置：
 
-![image](https://github.com/dsadsadsss/x-docker/blob/main/png/argo1.PNG)
+    ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/argo1.PNG)
 
-2、V2rayN设置：
+    2、V2rayN设置：
 
-![image](https://github.com/dsadsadsss/x-docker/blob/main/png/vless.PNG)
+    ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/vless.PNG)
 
