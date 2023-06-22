@@ -67,7 +67,7 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
 五、手动设置参考
 1、ARGO设置：
 
-![image](https://github.com/dsadsadsss/x-docker/blob/main/png/argo.PNG)
+![image](https://github.com/dsadsadsss/x-docker/blob/main/png/argo1.PNG)
 
 2、XRAYN设置：
 
