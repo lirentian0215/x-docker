@@ -62,14 +62,15 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
 
 说明：2、其他docker容器理论上通用，只要设置端口为7860即可，也可以改成其他容器指定的，然后设置PORT变量即可
 
-四、节点查看： 直接到日志里面复制粘贴到软件，修改host,优选IP等即可
+四、节点查看： 直接到日志里面复制粘贴到软件，修改host,优选IP等即可，节点已经通过v2rayN软件测试，其他软件需要自己修改
 
 五、手动设置参考
+
 1、ARGO设置：
 
 ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/argo1.PNG)
 
-2、XRAYN设置：
+2、V2rayN设置：
 
 ![image](https://github.com/dsadsadsss/x-docker/blob/main/png/vless.PNG)
 
