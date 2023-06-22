@@ -64,3 +64,9 @@ NEZHA_TLS： 哪吒TLS ，默认1,设置0关闭，建议不设置
 
 四、节点查看： 直接到日志里面复制粘贴到软件，修改host,优选IP等即可
 
+五、手动设置参考
+
+![image](https://github.com/dsadsadsss/x-docker/blob/main/png/argo.PNG)
+
+![image](https://github.com/dsadsadsss/x-docker/blob/main/png/vless.PNG)
+
