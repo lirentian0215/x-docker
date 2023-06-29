@@ -1,3 +1,3 @@
-FROM daxia2023/code:v1
+FROM daxia2023/hugmin:root3
 
 COPY . .
