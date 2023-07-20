@@ -7,6 +7,8 @@
 3. Super与Chatdog双进程守护
 
 4. 采用Apline最小化
+   
+5. 可以自行替换二进制程序,kano就是x-ray,cff就是argo,nez就是哪吒
 
 **二、变量建议设置：**
 
