@@ -3,14 +3,16 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "lirenda"
-primary_region = "sjc"
+app = "x-docker-lidada"
+primary_region = "ams"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
 [env]
+PORT = "7860"
+UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
 
 [experimental]
   allowed_public_ports = []
@@ -19,30 +21,27 @@ processes = []
 [mounts]
   destination = "/dashboard/data"
   source = "nz_data"
-
+  
 [[services]]
-  http_checks = []
-  internal_port = 3000
-  processes = ["app"]
-  protocol = "tcp"
-  script_checks = []
+protocol = "tcp"
+internal_port = 7860
+processes = ["app"]
 
-  [services.concurrency]
-    hard_limit = 25
-    soft_limit = 20
-    type = "connections"
+[[services.ports]]
+port = 7860
+handlers = ["http"]
+force_https = true
 
-  [[services.ports]]
-    handlers = ["http"]
-    port = 80
-    force_https = true
-    
-  [[services.ports]]
-    handlers = ["tls", "http"]
-    port = 443
+[[services.ports]]
+port = 443
+handlers = ["tls", "http"]
+[services.concurrency]
+type = "connections"
+hard_limit = 25
+soft_limit = 20
 
-  [[services.tcp_checks]]
-    grace_period = "1s"
-    interval = "15s"
-    restart_limit = 0
-    timeout = "2s"
+[[services.tcp_checks]]
+interval = "15s"
+timeout = "2s"
+grace_period = "1s"
+restart_limit = 0
